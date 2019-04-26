@@ -1,0 +1,1 @@
+{"robots": [{"id": 3, "name": "Ollie"}], "identifier": "4604287", "data": "12;async function move(){\n\tawait roll(getHeading()+90,50,0.75)\n\tawait delay(1)\n\n\t\n}\n\nasync function startProgram() {\n\t// Write code here\n\n\tfor(var i = 0; i < 4; i++){\n\t\tmove();\t\n\t\tawait Sound.EightBit.play(true);\n\t}\n}\n", "name": "Untitled Program", "program_type": "text"}
